@@ -8,10 +8,3 @@ if(!String.prototype.id){
     }
   });
 }
-
-if(!Object.prototype.id){
- 	Object.prototype.id = function(){
-        unique_id_count++
-    	return 'unique-' + unique_id_count
-    }
-}
